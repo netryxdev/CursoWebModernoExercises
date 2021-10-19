@@ -8,5 +8,7 @@ console.log(escola.indexOf('3'))//"existe o valor 3 na constante escola?" Sim, e
 console.log(escola.substring(1))// Escreve a partir dp índice "1"
 console.log(escola.substring(0, 3))// Aqui seria o "contrário" ele ta indo do índice 0 até o índice 3 e excluindo o resto adiante
 
-console.log('Escola ',concat(escola).concat("!"))//Um tipo de forma para concatenar strings 
-console.log(escola.replace(3, 'e'))
+console.log('Escola '.concat(escola).concat("!"))//Um tipo de forma para concatenar strings pode usar o "+" no lugar de concat tbm.
+console.log(escola.replace(3, 'e'))//substitui o item "3" por 'e' na constante
+
+console.log('Ana,Maria,Pedro'.split(','))// comando split transforma em array
