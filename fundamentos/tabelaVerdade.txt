@@ -1,0 +1,15 @@
+v e v -> v
+v e f ->
+v e v -> v
+
+v ou ? -> v
+f ou v -> v
+f e f -> f
+
+v xor v -> f
+v xor f -> v
+f xor v -> v
+f xor f -> f
+
+!v -> f
+f! -> v
